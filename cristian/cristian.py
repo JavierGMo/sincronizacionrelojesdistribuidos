@@ -28,7 +28,11 @@ class Cristian:
         self.intervaloSC = intervaloSC
         
         
-
+    def peticionManual(self):
+        try:
+            pass
+        finally:
+            self.sock.close()
         
     def peticion(self):
         try:
